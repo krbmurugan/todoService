@@ -6,6 +6,7 @@ phases:
   build:
     commands:
       - echo "Entered build phase"
+      - cd todo
       - mvn clean install package
   post_build:
     commands:
