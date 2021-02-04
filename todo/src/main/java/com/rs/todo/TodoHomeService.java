@@ -59,5 +59,11 @@ public class TodoHomeService {
 		return new WelcomeBean(resp);
 		
 	}
+	
+	@GetMapping("/")
+	public String welcomeMsg() {
+		return "Welcome to ToDO app";
+	}
+	
 
 }
