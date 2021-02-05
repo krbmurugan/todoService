@@ -62,7 +62,7 @@ public class TodoHomeService {
 	
 	@GetMapping("/")
 	public String welcomeMsg() {
-		return "Welcome to ToDO app- Deployed through AWS";
+		return "Welcome to ToDO app- Deployed through AWS..";
 	}
 	
 
