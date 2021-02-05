@@ -13,8 +13,6 @@ phases:
       - echo "Entered the post-build phase"
       - mv todo/target/todo-0.0.1-SNAPSHOT.jar ./
   artifacts:
-      commands:
-        - pwd
       files:
         - todo
         - name:todo-0.0.1-SNAPSHOT.jar
