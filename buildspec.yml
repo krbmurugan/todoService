@@ -15,6 +15,6 @@ phases:
       - ls
 artifacts:
   files:
-    - todo-0.0.1-SNAPSHOT.jar
+    - todo/todo-0.0.1-SNAPSHOT.jar
     
     
