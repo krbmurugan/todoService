@@ -1,4 +1,4 @@
-package com.rs.todo;
+package com.rs.todo.controller;
 
 public class WelcomeBean {
 	
